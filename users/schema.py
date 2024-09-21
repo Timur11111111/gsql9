@@ -73,3 +73,5 @@ class Mutation(graphene.ObjectType):
     delete_user = DeleteUser.Field()
     
 schema = graphene.Schema(query=Query, mutation=Mutation)
+
+#добавлен класс удаления
